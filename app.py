@@ -7,4 +7,5 @@ def home():
     return "<h1>Site Python em Flask funcionando!</h1>"
 
 if __name__ == "__main__":
-    app.run(port=8083)
+    app.run(host="0.0.0.0", port=8083)
+
